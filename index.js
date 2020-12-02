@@ -5,14 +5,12 @@
 
 
 //Declarations of DOM elements
-const inputs = Array.from( document.querySelectorAll( 'input' ) );
-const selects = Array.from( document.querySelectorAll( 'select' ) );
-const addButton = document.getElementsByClassName( 'add' )[0];
-const submitButton = Array.from( document.querySelectorAll( 'button' ) ).find( b => b.innerText === "submit" );
-const ageInput = inputs.find( input => input.name === 'age' );
-const relationshipSelect = selects.find( select => select.name === 'rel' );
-const smokerInput = inputs.find( input => input.name === 'smoker' );
-const householdMemberList = document.getElementsByClassName( 'household' )[0]
+const addButton = document.querySelector('[class=add]');
+const submitButton = document.querySelector('[type=submit]');
+const ageInput = document.querySelector('[name=age]');
+const relationshipSelect = document.querySelector('[name=rel]');
+const smokerInput = document.querySelector('[name=smoker]');
+const householdMemberList = document.querySelector('[class=household]');
 const householdList = document.querySelector( 'pre' );
 
 
