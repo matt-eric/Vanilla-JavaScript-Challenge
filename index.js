@@ -5,12 +5,12 @@
 
 
 //Declarations of DOM elements
-const addButton = document.querySelector('[class=add]');
+const addButton = document.querySelector('.add');
 const submitButton = document.querySelector('[type=submit]');
 const ageInput = document.querySelector('[name=age]');
 const relationshipSelect = document.querySelector('[name=rel]');
 const smokerInput = document.querySelector('[name=smoker]');
-const householdMemberList = document.querySelector('[class=household]');
+const householdMemberList = document.querySelector('.household');
 const householdList = document.querySelector( 'pre' );
 
 
